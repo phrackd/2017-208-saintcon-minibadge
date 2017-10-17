@@ -1,0 +1,17 @@
+# kicad files
+*.kicad_pcb-bak
+*.bak
+*cache.lib
+
+# jetbrains files
+.idea
+
+# eagle
+eagle
+
+#Compiled Products
+*.out
+*.hex
+
+#gerber
+gerber

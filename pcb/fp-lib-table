@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name minibadge)(type KiCad)(uri "$(KIPRJMOD)/minibadge.pretty")(options "")(descr ""))
+)

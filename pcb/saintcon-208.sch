@@ -1,0 +1,526 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MiniBadge
+LIBS:saintcon-208-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "2017-208-saintcon-minibadge"
+Date "2017-10-16"
+Rev "1.0"
+Comp "@PhrackD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY13-20SSU U1
+U 1 1 59AB550E
+P 6250 1600
+F 0 "U1" H 5450 2000 50  0000 C CNN
+F 1 "ATTINY13-20SSU" H 6900 1200 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6850 1600 50  0001 C CIN
+F 3 "" H 5450 1950 50  0001 C CNN
+	1    6250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BADGE64FOOTPRINT M1
+U 1 1 59AD04BC
+P 6550 3800
+F 0 "M1" H 7300 3800 45  0000 C CNN
+F 1 "BADGE64FOOTPRINT" H 7100 4850 45  0000 C CNN
+F 2 "minibadge:MiniBadge-BADGE64-FOOTPRINT" H 6580 3950 20  0001 C CNN
+F 3 "" H 6550 3800 60  0001 C CNN
+	1    6550 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 59B1F5B2
+P 2750 3350
+F 0 "D7" H 2750 3450 50  0000 C CNN
+F 1 "LED" H 2750 3250 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 3350 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D9
+U 1 1 59B1F5B8
+P 2750 3750
+F 0 "D9" H 2750 3850 50  0000 C CNN
+F 1 "LED" H 2750 3650 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D11
+U 1 1 59B1F5BE
+P 2750 4150
+F 0 "D11" H 2750 4250 50  0000 C CNN
+F 1 "LED" H 2750 4050 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 4150 50  0001 C CNN
+F 3 "" H 2750 4150 50  0001 C CNN
+	1    2750 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D1
+U 1 1 59B1F5C4
+P 2750 2150
+F 0 "D1" H 2750 2250 50  0000 C CNN
+F 1 "LED" H 2750 2050 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D3
+U 1 1 59B1F5CA
+P 2750 2550
+F 0 "D3" H 2750 2650 50  0000 C CNN
+F 1 "LED" H 2750 2450 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 2550 50  0001 C CNN
+F 3 "" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D5
+U 1 1 59B1F5D0
+P 2750 2950
+F 0 "D5" H 2750 3050 50  0000 C CNN
+F 1 "LED" H 2750 2850 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 2950 50  0001 C CNN
+F 3 "" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D13
+U 1 1 59B1F5D6
+P 2750 4550
+F 0 "D13" H 2750 4650 50  0000 C CNN
+F 1 "LED" H 2750 4450 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 4550 50  0001 C CNN
+F 3 "" H 2750 4550 50  0001 C CNN
+	1    2750 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D15
+U 1 1 59B1F5DC
+P 2750 4950
+F 0 "D15" H 2750 5050 50  0000 C CNN
+F 1 "LED" H 2750 4850 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 4950 50  0001 C CNN
+F 3 "" H 2750 4950 50  0001 C CNN
+	1    2750 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D8
+U 1 1 59B1FE47
+P 3250 3350
+F 0 "D8" H 3250 3450 50  0000 C CNN
+F 1 "LED" H 3250 3250 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 3350 50  0001 C CNN
+F 3 "" H 3250 3350 50  0001 C CNN
+	1    3250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D10
+U 1 1 59B1FE4D
+P 3250 3750
+F 0 "D10" H 3250 3850 50  0000 C CNN
+F 1 "LED" H 3250 3650 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D12
+U 1 1 59B1FE53
+P 3250 4150
+F 0 "D12" H 3250 4250 50  0000 C CNN
+F 1 "LED" H 3250 4050 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 4150 50  0001 C CNN
+F 3 "" H 3250 4150 50  0001 C CNN
+	1    3250 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59B1FE59
+P 3250 2150
+F 0 "D2" H 3250 2250 50  0000 C CNN
+F 1 "LED" H 3250 2050 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 2150 50  0001 C CNN
+F 3 "" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D4
+U 1 1 59B1FE5F
+P 3250 2550
+F 0 "D4" H 3250 2650 50  0000 C CNN
+F 1 "LED" H 3250 2450 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 2550 50  0001 C CNN
+F 3 "" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D6
+U 1 1 59B1FE65
+P 3250 2950
+F 0 "D6" H 3250 3050 50  0000 C CNN
+F 1 "LED" H 3250 2850 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 2950 50  0001 C CNN
+F 3 "" H 3250 2950 50  0001 C CNN
+	1    3250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D14
+U 1 1 59B1FE6B
+P 3250 4550
+F 0 "D14" H 3250 4650 50  0000 C CNN
+F 1 "LED" H 3250 4450 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 4550 50  0001 C CNN
+F 3 "" H 3250 4550 50  0001 C CNN
+	1    3250 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D16
+U 1 1 59B1FE71
+P 3250 4950
+F 0 "D16" H 3250 5050 50  0000 C CNN
+F 1 "LED" H 3250 4850 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 4950 50  0001 C CNN
+F 3 "" H 3250 4950 50  0001 C CNN
+	1    3250 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1850 5250 3800
+Wire Wire Line
+	3550 1350 5250 1350
+Connection ~ 5050 1350
+Connection ~ 5100 1450
+Connection ~ 5150 1550
+Wire Wire Line
+	5250 3800 5850 3800
+Wire Wire Line
+	5850 2800 5850 2700
+Wire Wire Line
+	5850 2700 5100 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	5950 2800 5950 2650
+Wire Wire Line
+	5950 2650 5150 2650
+Connection ~ 5150 2650
+Wire Wire Line
+	6050 2800 6050 2600
+Wire Wire Line
+	6050 2600 5050 2600
+Connection ~ 5050 2600
+Wire Wire Line
+	5100 2700 5100 1450
+Wire Wire Line
+	5150 2650 5150 1550
+Wire Wire Line
+	5650 2500 5650 2800
+Wire Wire Line
+	5750 2800 5750 2550
+Wire Wire Line
+	5750 2550 7400 2550
+Wire Wire Line
+	5650 2500 7350 2500
+Wire Wire Line
+	7350 2500 7350 1350
+Wire Wire Line
+	7400 2550 7400 1850
+Wire Wire Line
+	5850 3800 5850 3700
+Wire Wire Line
+	6350 2800 6350 2550
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 3700 6500 3700
+Wire Wire Line
+	6500 3700 6500 2550
+Connection ~ 6500 2550
+Wire Wire Line
+	7250 1850 7600 1850
+Wire Wire Line
+	7250 1350 7600 1350
+Wire Wire Line
+	2600 2150 2600 1950
+Wire Wire Line
+	2600 1950 3550 1950
+Wire Wire Line
+	3400 1950 3400 2150
+Wire Wire Line
+	2900 2150 3100 2150
+Wire Wire Line
+	3000 2150 3000 2300
+Wire Wire Line
+	3000 2300 3600 2300
+Connection ~ 3000 2150
+Connection ~ 3400 1950
+Wire Wire Line
+	2600 2550 2600 2400
+Wire Wire Line
+	2600 2400 3650 2400
+Wire Wire Line
+	3400 2400 3400 2550
+Wire Wire Line
+	2900 2550 3100 2550
+Wire Wire Line
+	2600 2950 2600 2800
+Wire Wire Line
+	2600 2800 3750 2800
+Wire Wire Line
+	3400 2800 3400 2950
+Wire Wire Line
+	2600 3350 2600 3200
+Wire Wire Line
+	2600 3200 3850 3200
+Wire Wire Line
+	3400 3200 3400 3350
+Wire Wire Line
+	2600 3750 2600 3600
+Wire Wire Line
+	2600 3600 3950 3600
+Wire Wire Line
+	3400 3600 3400 3750
+Wire Wire Line
+	2600 4150 2600 4000
+Wire Wire Line
+	2600 4000 4050 4000
+Wire Wire Line
+	3400 4000 3400 4150
+Wire Wire Line
+	2600 4550 2600 4400
+Wire Wire Line
+	2600 4400 4150 4400
+Wire Wire Line
+	3400 4400 3400 4550
+Wire Wire Line
+	2600 4950 2600 4800
+Wire Wire Line
+	2600 4800 4250 4800
+Wire Wire Line
+	3400 4800 3400 4950
+Wire Wire Line
+	2900 2950 3100 2950
+Wire Wire Line
+	2900 3350 3100 3350
+Wire Wire Line
+	2900 3750 3100 3750
+Wire Wire Line
+	2900 4150 3100 4150
+Wire Wire Line
+	2900 4550 3100 4550
+Wire Wire Line
+	2900 4950 3100 4950
+Wire Wire Line
+	3000 2550 3000 2700
+Wire Wire Line
+	3000 2700 3700 2700
+Connection ~ 3000 2550
+Connection ~ 3400 2400
+Wire Wire Line
+	3000 2950 3000 3100
+Wire Wire Line
+	3000 3100 3800 3100
+Connection ~ 3000 2950
+Connection ~ 3400 2800
+Wire Wire Line
+	3000 3350 3000 3500
+Wire Wire Line
+	3000 3500 3900 3500
+Connection ~ 3000 3350
+Connection ~ 3400 3200
+Wire Wire Line
+	3000 3750 3000 3900
+Wire Wire Line
+	3000 3900 4000 3900
+Connection ~ 3000 3750
+Connection ~ 3400 3600
+Wire Wire Line
+	3000 4150 3000 4300
+Wire Wire Line
+	3000 4300 4100 4300
+Connection ~ 3000 4150
+Connection ~ 3400 4000
+Connection ~ 3400 4400
+Wire Wire Line
+	3000 4550 3000 4700
+Wire Wire Line
+	3000 4700 4200 4700
+Connection ~ 3000 4550
+Wire Wire Line
+	3000 4950 3000 5100
+Wire Wire Line
+	3000 5100 4300 5100
+Connection ~ 3000 4950
+Connection ~ 3400 4800
+Wire Wire Line
+	5050 2600 5050 1350
+Wire Wire Line
+	3550 1950 3550 1350
+Wire Wire Line
+	3600 2300 3600 1450
+Connection ~ 3600 1450
+Wire Wire Line
+	3650 2400 3650 1450
+Connection ~ 3650 1450
+Wire Wire Line
+	3700 2700 3700 1550
+Connection ~ 3700 1550
+Connection ~ 3550 1350
+Wire Wire Line
+	3750 2800 3750 1550
+Connection ~ 3750 1550
+Wire Wire Line
+	3800 3100 3800 1650
+Connection ~ 3800 1650
+Wire Wire Line
+	3850 3200 3850 1650
+Connection ~ 3850 1650
+Wire Wire Line
+	3900 3500 3900 1750
+Connection ~ 3900 1750
+Wire Wire Line
+	3950 3600 3950 1350
+Connection ~ 3950 1350
+Wire Wire Line
+	4000 3900 4000 1550
+Connection ~ 4000 1550
+Wire Wire Line
+	4050 4000 4050 1450
+Connection ~ 4050 1450
+Wire Wire Line
+	4100 4300 4100 1650
+Connection ~ 4100 1650
+Wire Wire Line
+	4150 4400 4150 1550
+Connection ~ 4150 1550
+Wire Wire Line
+	4200 4700 4200 1750
+Connection ~ 4200 1750
+Wire Wire Line
+	4250 4800 4250 1350
+Connection ~ 4250 1350
+Wire Wire Line
+	4300 5100 4300 1650
+Connection ~ 4300 1650
+$Comp
+L LED D17
+U 1 1 59B22863
+P 2750 5350
+F 0 "D17" H 2750 5450 50  0000 C CNN
+F 1 "LED" H 2750 5250 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 2750 5350 50  0001 C CNN
+F 3 "" H 2750 5350 50  0001 C CNN
+	1    2750 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D18
+U 1 1 59B22869
+P 3250 5350
+F 0 "D18" H 3250 5450 50  0000 C CNN
+F 1 "LED" H 3250 5250 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3250 5350 50  0001 C CNN
+F 3 "" H 3250 5350 50  0001 C CNN
+	1    3250 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 5350 2600 5200
+Wire Wire Line
+	3400 5200 3400 5350
+Wire Wire Line
+	2900 5350 3100 5350
+Wire Wire Line
+	3000 5350 3000 5500
+Connection ~ 3000 5350
+Connection ~ 3400 5200
+Wire Wire Line
+	4350 5200 4350 1450
+Connection ~ 4350 1450
+Wire Wire Line
+	4400 5500 4400 1750
+Connection ~ 4400 1750
+Wire Wire Line
+	3600 1450 5250 1450
+Wire Wire Line
+	3700 1550 5250 1550
+Wire Wire Line
+	3800 1650 5250 1650
+Wire Wire Line
+	3900 1750 5250 1750
+Wire Wire Line
+	2600 5200 4350 5200
+Wire Wire Line
+	3000 5500 4400 5500
+$Comp
+L C C1
+U 1 1 59B23A3A
+P 7600 1500
+F 0 "C1" H 7625 1600 50  0000 L CNN
+F 1 "C" H 7625 1400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7638 1350 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/AVX/06033C104K4T4A/?qs=sGAEpiMZZMs0AnBnWHyRQCvwBt31FSTBNcopTn8bDD4%3d" H 7600 1500 50  0001 C CNN
+	1    7600 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 1350
+Wire Wire Line
+	7600 1850 7600 1650
+Connection ~ 7400 1850
+$EndSCHEMATC
